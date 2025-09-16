@@ -212,7 +212,20 @@
 
     //페이지가 로드되면 자동으로 서버 연결 테스트하기
     document.addEventListener('DOMContentLoaded', 서버연결테스트);
+<<<<<<< HEAD
 
+=======
+    
+    <div id="loading">
+        <div class="loading-circle"></div>
+        <div class="loading-empty"></div>
+    </div>
+
+    window.onload = function() {
+        const loading = document.getElementById('loading');
+        loading.style.display = 'none'; //페이지 로딩 완료시 로딩 창 숨기기
+    };
+>>>>>>> 7e69286 (검색 기능 추가)
     </script>
 </body>
 </html>
